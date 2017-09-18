@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name         = "VdopiaSdk-Inview"
+s.name         = "Vdopia-Inview-Sdk"
 s.version      = "2.0.0"
 s.summary      = "A vdopiasdk mobile advertising sdk"
 s.description  = "vdopia mobile advertising SDK gives developers a fast and convenient way to monetize their apps."
@@ -12,7 +12,7 @@ LICENSE
 s.homepage     = "http://www.vdopia.com/mobile/"
 s.author       = "Team"
 s.platform     = :ios, "8.0"
-s.source       = {:git => 'https://bitbucket.org/vdopia/sdkdistribution.git',:tag => '1.2'}
+s.source       = {:git => 'https://bitbucket.org/vdopia/sdkdistribution.git',:tag => '1.2.1'}
 s.source_files  = "**/*.{h,m}",
 s.resources = "**/*.{txt,js}"
 s.public_header_files = "**/*.h"
